@@ -37,16 +37,11 @@ o To find the total number of active and cancelled subscriptions.
 ### Data Analysis
 ---
 ---SQL
--- The total sales for each product category--
 
-SELECT [Product] , SUM([Total Sales]) AS Total_Sales
-FROM[dbo].[SalesData$]
-Group By Product
-----
 
----The number of sales transactions in each region--
-SELECT [Region] , count( [Total Sales]) AS Total_Sales_Count
-FROM[dbo].[SalesData$]
-Group By [Region]
+
 ---
 ### Data Visualization
+
+![Customer data](https://github.com/user-attachments/assets/99aba387-f203-4380-a05e-1d7513552669)
+
